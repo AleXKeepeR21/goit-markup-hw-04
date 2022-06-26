@@ -69,6 +69,7 @@ img {
 .features,
 .doing,
 .people,
+.clients,
 .portfolio-nav {
 	padding-top: 94px;
 	padding-bottom: 94px;
@@ -286,6 +287,18 @@ img {
 .people-list .item:nth-child(4n) {
 	margin-right: 0;
 }
+
+/* Клиенты */
+
+.clients-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--black-txt-color-main);
+}
+
 
 /* Портфолио 2 стр. */
 
