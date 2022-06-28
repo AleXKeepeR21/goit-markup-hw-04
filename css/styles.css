@@ -543,10 +543,11 @@ img {
 
 .footer-container {
 	display: flex;
+	align-items: baseline;
 }
 
 .social-media-container-footer {
-	margin: 22px 663px 100px 70px;
+	margin-left: 70px;
 }
 .social-media-title-footer {
 	font-weight: 700;
