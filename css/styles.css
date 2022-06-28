@@ -97,6 +97,11 @@ img {
 }
 
 /* Header-nav */
+
+.header {
+border-bottom: 1px solid var(--border-heder);
+}
+
 .header-nav {
 	display: flex;
 	color: var(--black-txt-color-main);
@@ -156,7 +161,7 @@ img {
 .header-container {
 	display: flex;
 	align-items: center;
-	border-bottom: 1px solid var(--border-heder);
+	/* border-bottom: 1px solid var(--border-heder); */
 }
 
 .nav-container {
