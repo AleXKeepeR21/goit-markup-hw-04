@@ -134,14 +134,16 @@ border-bottom: 1px solid var(--border-heder);
 	margin-left: 30px;
 }
 .auth-nav-link {
+	display: flex;
+	align-items: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--grey-txt-color);
-	display: block;
-	padding-top: 32px;
-	padding-bottom: 32px;
+	
 }
 
 .auth-nav .auth-nav-link:hover,
@@ -156,13 +158,13 @@ border-bottom: 1px solid var(--border-heder);
 
 .auth-nav-icon {
 	fill: currentColor;
+	margin-right: 10px;
 }
 
 .header-container {
 	display: flex;
 	align-items: center;
-	/* border-bottom: 1px solid var(--border-heder); */
-}
+	}
 
 .nav-container {
 	display: flex;
@@ -198,6 +200,7 @@ border-bottom: 1px solid var(--border-heder);
 .hero-btn {
 	padding: 10px 32px;
 	border-radius: 4px;
+	border: transparent;
 	font-family: inherit;
 	cursor: pointer;
 	font-weight: 700;
@@ -238,14 +241,17 @@ border-bottom: 1px solid var(--border-heder);
 	margin-right: 0;
 }
 
-.features-list-icon {
-	padding: 25px 100px;
+.features-icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: var(--light-bg-color);
 	width: 270px;
 	height: 120px;
 	margin-bottom: 30px;
 	border-radius: 4px;
 }
+
 
 /* Чем мы занимаемся */
 
@@ -399,7 +405,6 @@ border-bottom: 1px solid var(--border-heder);
 	letter-spacing: 0.03em;
 	color: var(--black-txt-color-main);
 	background-color: var(--light-bg-color);
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
 	border-color: transparent;
 	cursor: pointer;
@@ -409,6 +414,7 @@ border-bottom: 1px solid var(--border-heder);
 .portfolio-btn:focus {
 	color: var(--white-txt-color);
 	background-color: var(--accent-txt-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-container {
